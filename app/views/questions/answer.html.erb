@@ -1,0 +1,23 @@
+<!-- display original question  -->
+<!-- display answer view - use html code with embeded Ruby -->
+<!-- add a link to ask new question -->
+
+
+<h1 class="text-center">Stupid coaching</h1>
+<br>
+<div class="question-container">
+  <%= @question %>
+  <br>
+  <%= "- You" %>
+</div>
+<br>
+<br>
+<div class="answer-container">
+  <%= @answer %>
+  <br>
+  <%= "- Your Coach" %>
+</div>
+<br>
+<div class="link">
+<%= link_to "Ask a new question", ask_path %>
+</div>
